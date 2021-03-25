@@ -27,7 +27,7 @@
           <optionlist name="tabs">
             <listitems>
               <listitem name="resources" value="false" group="linkright" />
-              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
@@ -60,6 +60,7 @@
           <option name="seekbar" value="false">
             <options>
               <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
             </options>
           </option>
           <option name="search" value="false" />
@@ -1113,51 +1114,51 @@
   <string_tables>
     <string_table name="npnxnanbnsnfns00000000001">
       <string id="acc_active">active</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="acc_definition">definition</string>
+      <string id="acc_finish">finish</string>
+      <string id="acc_next">next</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="acc_previous">previous</string>
+      <string id="acc_replay">replay</string>
+      <string id="acc_resources">resources</string>
+      <string id="acc_search_input">search</string>
+      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="acc_volume">volume</string>
+      <string id="bio">Bio</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to Menu</string>
       <string id="close">Close</string>
-      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="closed_captions">Captions</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
+      <string id="definition">Definition</string>
+      <string id="disabled_orientation">Please rotate your device</string>
       <string id="exit">Exit</string>
       <string id="filter">Filter</string>
       <string id="finish">FINISH</string>
-      <string id="acc_finish">finish</string>
-      <string id="definition">Definition</string>
-      <string id="acc_definition">definition</string>
       <string id="glossary">Glossary</string>
-      <string id="terms">Terms</string>
-      <string id="outline">Menu</string>
-      <string id="disabled_orientation">Please rotate your device</string>
-      <string id="next">NEXT</string>
-      <string id="acc_next">next</string>
-      <string id="transcript_chk">Notes</string>
-      <string id="transcript">Notes</string>
-      <string id="bio">Bio</string>
       <string id="more_info">More info</string>
-      <string id="closed_captions">Captions</string>
-      <string id="acc_pause">pause</string>
-      <string id="acc_play">play</string>
-      <string id="send_an_email">Send an email</string>
+      <string id="next">NEXT</string>
+      <string id="outline">Menu</string>
       <string id="prev">PREV</string>
-      <string id="acc_previous">previous</string>
       <string id="question_list">Question List</string>
-      <string id="acc_replay">replay</string>
       <string id="resources">Resources</string>
-      <string id="acc_resources">resources</string>
       <string id="restart">Restart</string>
       <string id="resume">Resume</string>
       <string id="search">Search...</string>
-      <string id="acc_search_input">search</string>
       <string id="search_in">Search in:</string>
       <string id="search_results">Search Results</string>
-      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="send_an_email">Send an email</string>
       <string id="slide_text_chk">Slide Text</string>
-      <string id="submitall">SUBMIT ALL</string>
-      <string id="acc_submitall">submit all</string>
       <string id="submit">SUBMIT</string>
-      <string id="acc_submit">submit</string>
-      <string id="acc_volume">volume</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="terms">Terms</string>
+      <string id="transcript">Notes</string>
+      <string id="transcript_chk">Notes</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1176,14 +1177,14 @@
           <links>
             <slidelink slideid="_player.6C8ANGkufdi.6GeYpmcEWJs" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6C8ANGkufdi.5xWfZ8Awdio" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6C8ANGkufdi.5kQ7y7CQBkh" displaytext="This Is The Questions Length Example. &#xA;Try Not O Exceed This Length" expand="false" type="slide" />
+            <slidelink slideid="_player.6C8ANGkufdi.6E89OO0rIZr" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5nB35tfHxoE.6YglBnVaU4J" displaytext="Draw from Mega" expand="false" type="slide" />
+            <slidelink slideid="_player.6HcNs970W3N.5i9UX9CvYmg" displaytext="Middle" expand="false" type="slide" />
+            <slidelink slideid="_player.6HcNs970W3N.5sG0BuKfEsM" displaytext="Start" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.5pubVVRTzRq" displaytext="eLearning Developer Assessment" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.5pubVVRTzRq.6FnMSWiYMdI" displaytext="When an exciting new device comes to the market, you:" expand="false" type="slide" />
-          </links>
-        </slidelink>
+        <slidelink slideid="" displaytext="Questions" expand="true" type="slide" />
+        <slidelink slideid="" displaytext="Template" expand="true" type="slide" />
       </links>
     </outline>
   </nav_data>
